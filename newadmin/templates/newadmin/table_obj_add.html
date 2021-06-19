@@ -1,0 +1,43 @@
+{% extends 'newadmin/index.html' %}
+{% load newadmin_tags %}
+
+{% block right-content-container %}
+
+<h2 class="page-header">{% get_model_name admin_class %}</h2>
+<h4 class="page-header">添加{% get_model_name admin_class %}数据 </h4>
+<div>
+    add
+
+    {% include 'newadmin/table_obj_change_compontent.html' %}
+
+
+
+</div>
+
+{% endblock %}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
